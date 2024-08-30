@@ -5,7 +5,7 @@
 header {
     position: fixed;
     width: 100%;
-    @media (max-width: 360px)
+    @media (max-width: 280px)
     {position: absolute;}}
 
 header .wrap {
@@ -23,12 +23,12 @@ header a img {
 header ul {
     display: flex;
     font-family: "Karla", sans-serif;
-    @media (max-width: 360px)
+    @media (max-width: 280px)
     {display: none}}
 
 .icon-bars {
     display: none;
-    @media (max-width: 360px)
+    @media (max-width: 280px)
     {display: contents;
     padding-right: 20px}}
         
@@ -54,7 +54,7 @@ header ul li a:hover {
     background-size: cover;
     align-items: center;
     justify-content: center;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         height: 45vh;
         text-align: center;}}
 .title {
@@ -63,16 +63,16 @@ header ul li a:hover {
     text-transform: uppercase;
     font-size: 40px;
     padding: 20% 0 0 12%;
-    @media (max-width: 360px) { 
-        font-size: 20px;
-        padding: 30% 0 0 0;}}
+    @media (max-width: 280px) { 
+        font-size: 16px;
+        padding: 40% 0 0 0;}}
 .subtitle {
     padding: 0 0 40px 12%;
     color: white;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
-    @media (max-width: 360px) { 
-        font-size: 12px;
+    @media (max-width: 280px) { 
+        font-size: 10px;
         padding: 0 10% 4% 10%}}
 .button {
     margin-left: 12%;
@@ -85,11 +85,11 @@ header ul li a:hover {
     font-family: "Karla", sans-serif;;
     font-size: 16px;
     text-align: center;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         margin: 0;
         text-align: center;
-        font-size: 12px;
-        padding: 8px 28px;}}
+        font-size: 10px;
+        padding: 6px 18px;}}
 .button:hover {
     transition: 0.5s;
     cursor: pointer;
@@ -105,26 +105,26 @@ header ul li a:hover {
     text-transform: uppercase;
     color: #35302d;
     font-size: 24px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 16px;
         padding-top: 16%;}}
 .caption-story {
     padding-bottom: 10%;
     font-family: "Karla", sans-serif;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 10px}}
 .img-story {
     padding-left: 8%;
     width: 120%;
-    @media (max-width: 360px) { 
-        padding-top: 20%;}}
+    @media (max-width: 280px) { 
+        padding-top: 40%;}}
 .pict-section {
     display: flex;
     width: 55%;}
 .pict-story {
     width: 60%;
     margin: 0 10px 0 0;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         margin: 0;
         padding: 4px;
         width: 124%;}}
@@ -141,7 +141,7 @@ header ul li a:hover {
     font-family: "Open Sans", sans-serif;
     color: #35302d;
     font-size: 24px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 16px;}}
 .card-wrapper {
     text-align: center;
@@ -157,7 +157,7 @@ header ul li a:hover {
     padding: 6px 6px 14px 6px;
     transition: 0.5s;
     border-radius: 12px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         width: 80%;
         margin: 0 0 10px 24px;}}
 .card:hover {
@@ -176,14 +176,14 @@ header ul li a:hover {
     font-size: 20px;
     text-decoration: none;
     font-size: 20px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 12px;}}
 .card p {
     font-family: "Karla", sans-serif;
     font-size: 14px;
     padding:20px 10px 0 10px;
     text-align: center;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 10px;
         padding: 10px 4px 0 4px;}}
 .booking { 
@@ -206,9 +206,9 @@ header ul li a:hover {
     width: 200px;
     border-radius: 4px;
     border: none;
-    @media (max-width: 360px) { 
-        width: 200px;
-        height: 4px;}}
+    @media (max-width: 280px) { 
+        width:  160px;
+        height: 1px;}}
 .book-button {
     padding: 10px 30px 10px 30px;
     border-radius: 4px;
@@ -216,10 +216,10 @@ header ul li a:hover {
     font-family: "Karla", sans-serif;
     font-size: 16px;
     background-color: white;
-    @media (max-width: 360px) { 
-        width: 220px;
+    @media (max-width: 280px) { 
+        width: 180px;
         font-size: 10px;
-        padding: 8px;
+        padding: 6px;
         margin-top: -20px;;}}
 .book-button:hover {
     cursor: pointer;
@@ -239,7 +239,7 @@ header ul li a:hover {
     display: flex;}}
 .pict-destination {
     width: 50%;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         width: 55%;
        padding: 4px;}}
 .group-destination {
@@ -248,7 +248,7 @@ header ul li a:hover {
     font-family: "Open Sans", sans-serif;
     color: #B49F6B;
     font-size: 20px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 12px;
         text-align: center;}}
 .title-destination {
@@ -257,7 +257,7 @@ header ul li a:hover {
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     color: #35302d;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 16px;
         text-align: center;
         padding-bottom: 2%;}}
@@ -265,7 +265,7 @@ header ul li a:hover {
     padding-left: 50%;
     font-family: "Karla", sans-serif;
     font-size: 16px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 10px;
         text-align: center;
         padding: 0 10px 0 10px;}}
@@ -281,13 +281,13 @@ header ul li a:hover {
         justify-content: space-between;}}
 .footer-title {
     font-size: 16px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 12px;
     }}
 .list-contact {
     padding: 2% 0 10% 0;
     font-size: 14px;
-    @media (max-width: 360px) { 
+    @media (max-width: 280px) { 
         font-size: 10px;
         padding: 3% 0 6% 0}}
 .list-group-item {
@@ -301,19 +301,19 @@ header ul li a:hover {
 .media {
     padding: 10px 6px 0 0;
     color: black;
-    @media (max-width: 360px)}
+    @media (max-width: 280px)}
 .media:hover {
     color: #B49F6B;}
 .maps-villa {
     text-align: right;
-    @media (max-width: 360px){
+    @media (max-width: 280px){
         text-align: left;
         margin-top: 6%;}}
 .maps {
     width: 80%;
     height: 80%;
     border-radius: 4px;
-    @media (max-width: 360px){
+    @media (max-width: 280px){
        display: none}}
 .maps:hover {
     transition: 0.5s;
