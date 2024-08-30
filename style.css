@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;}
+/* ============== header ==============*/
+header {
+    position: fixed;
+    width: 100%;}
+
+header .wrap {
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f4f0;
+    box-shadow: 2px 2px 4px #d1cec2;}
+
+header a img {
+    padding-top: 4px;
+    width: 160px;}
+
+header ul {
+    display: flex;
+    font-family: "Karla", sans-serif;}
+
+header ul li {
+    display: block;}
+
+header ul li a {
+    text-decoration: none;
+    color: #35302d;
+    font-size: 14px;
+    padding: 0 12px;}
+header ul li a:hover {
+    cursor: pointer;
+    color: #B49F6B;}
+
+    /* ============== banner ============== */
+.banner {
+    height: 80vh;
+    background-image: url(Asset/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;}
+.title {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 20% 0 0 12%;
+    /* @media (max-width: 420px) { 
+        font-size: 20px;}*/}
+.subtitle {
+    padding: 0 0 40px 12%;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;}
+.button {
+    margin-left: 12%;
+    background-color: #f5f4f0;
+    color: #35302d;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Karla", sans-serif;;
+    font-size: 16px;
+    text-align: center;}
+.button:hover {
+    background: #35302d;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px white;}
+
+    /* ============== our story ============== */
+.story {
+    margin: 6% 20% 6% 12%;
+    display: flex;}
+.title-story {
+    padding-bottom: 6%;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #35302d}
+.caption-story {
+    padding-bottom: 10%;
+    font-family: "Karla", sans-serif;}
+.img-story {
+    padding-left: 8%;
+    width: 120%;}
+.pict-section {
+    display: flex;
+    width: 55%;}
+.pict-story {
+    width: 60%;
+    margin: 0 10px 0 0;
+   }
+
+
+    /* ============== our room ============== */
+.room {
+    padding: 4% 12%;
+    background: #f5f4f0;}  
+.title-section {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    color: #35302d;}
+.card-wrapper {
+    display: flex;
+    padding: 20px 0 20px 0;
+    justify-content: space-between}
+.card {
+    box-shadow: 1px 1px 8px #ebe8db;
+    background-color: white;
+    width: 28%;
+    padding: 6px 6px 14px 6px;
+    transition: 0.5s;
+    border-radius: 12px;}
+.card:hover {
+    background: #ebe8db;
+    box-shadow: none;
+    border: #B49F6B;
+    cursor: pointer;}
+.card img {
+    width: 100%;
+    border-radius: 8px;}
+.card h5 {
+    text-align: center;
+    text-transform: capitalize;}.card h5 a {
+    font-family: "Karla", sans-serif;
+    color: #B49F6B;
+    font-size: 20px;
+    text-decoration: none;}
+.card p {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    padding:20px 10px 0 10px;
+    text-align: center;}
+.booking-card {
+    box-shadow: 1px 1px 8px white;
+    padding: 20px;
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    background-color: #ebe8db;
+    border-radius: 12px;}
+.booking {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;}
+.input {
+    margin: 4px 0 0 0;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    border: none;}
+.book-button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;}
+.book-button:hover {
+    background-color: #B49F6B;
+    color: white;}
+
+
+    /* ============== destination ============== */
+.destination {
+    margin: 6% 12% 6% 12%;
+    text-align: right;}
+.explore {
+    display: flex;}
+.pict-destination {
+    width: 50%;
+    }
+.group-destination {
+    margin: 5% 0 0 0;}
+.label {
+    font-family: "Open Sans", sans-serif;
+    color: #B49F6B;
+    font-size: 20px;}
+.title-destination {
+    padding-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: #35302d}
+.caption-destination {
+    padding-left: 50%;
+    font-family: "Karla", sans-serif;}
+
+ /* ============== footer ============== */
+ footer {
+    background-color: #ebe8db;
+    font-family: "Karla", sans-serif;
+    padding: 6% 12% 2% 12%;}
+ .footer-group {
+    display: flex;
+    justify-content: space-between;}
+.footer-title {
+    font-size: 16px;}
+.list-contact {
+    padding: 3% 0 12% 0;
+    font-size: 14px;}
+.list-group-item {
+    color: black;
+    text-decoration: none;}
+.media-group {
+    display: flex;}
+.media {
+    width: 30px;
+    padding: 10px 10px 0 0;}
+.maps-villa {
+    text-align: right;}
+.maps {
+    width: 80%;
+    height: 80%;
+    border-radius: 4px;}
