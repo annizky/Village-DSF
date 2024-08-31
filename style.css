@@ -27,6 +27,7 @@ header ul {
     {display: none}}
 
 .icon-bars {
+    color: black;
     display: none;
     @media (max-width: 480px)
     {display: contents;
